@@ -1,0 +1,128 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Main Container */
+body {
+    font-family: 'Inter', sans-serif;
+    background-image : url("images/paper-style-dynamic-lines-background_23-2149008629.avif");
+    background-size: cover;
+    color: #ccd6f6; /* Text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 60%;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 10px 0;
+    gap:10px;
+}
+.menu{
+    list-style: none; /*removes the numbers or listing*/
+    margin: 0;
+    padding: 0;
+    display: flex; /* makes the elements places in a row*/
+}
+.dropdown-content{
+    display: none; /*hides the elements in the div section*/
+position: absolute;
+
+min-width: 160px;
+box-shadow: 0px 8px 8px 0px #555f5d;
+z-index: 1;
+}
+.dropdown-content a{
+    padding: 12px 16px;
+    display: block;
+    color: white;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color:gray;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    font-family: 'SF Mono', monospace;
+    font-size: 14px;
+    color: #ccd6f6;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.resume-button {
+    border: 1px solid #64ffda;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: #64ffda;
+    text-decoration: none;
+    font-family: 'SF Mono', monospace;
+}
+
+/* Main Content Styling */
+.intro {
+    font-family: 'SF Mono', monospace;
+    font-size: 18px;
+    color: #64ffda;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.name {
+    font-size: 60px;
+    font-weight: bold;
+    color: #ccd6f6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.tagline {
+    font-size: 48px;
+    color: #8892b0;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 20px;
+    color: #8892b0;
+    margin-bottom: 40px;
+}
+
+.description a {
+    color: #64ffda;
+    text-decoration: none;
+}
+
+.cta-button {
+    border: 1px solid #64ffda;
+    padding: 12px 24px;
+    border-radius: 4px;
+    color: #64ffda;
+    text-decoration: none;
+    font-family: 'SF Mono', monospace;
+}
