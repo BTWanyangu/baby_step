@@ -27,13 +27,14 @@ body {
 
 /* Header Styling */
 header {
+	width:75%;
     display: flex;
     position: fixed;
     top: 15px;;
     right: 0;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
     padding: 10px 0;
     gap:10px;
 }
@@ -96,6 +97,7 @@ nav ul li a {
 	margin-top: 30px;
     margin-bottom: 20px;
     text-align: left;
+	
 }
 
 .name {
