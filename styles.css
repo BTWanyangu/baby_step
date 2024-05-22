@@ -8,7 +8,8 @@
 /* Body and Main Container */
 body {
     font-family: 'Inter', sans-serif;
-    background-image : url("images/paper-style-dynamic-lines-background_23-2149008629.avif");
+/*background-color: #0a192f; /* Background color */ */
+    background-image: url("images/paper-style-dynamic-lines-background_23-2149008629.avif");
     background-size: cover;
     color: #ccd6f6; /* Text color */
     display: flex;
