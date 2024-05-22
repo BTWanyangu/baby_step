@@ -8,7 +8,7 @@
 /* Body and Main Container */
 body {
     font-family: 'Inter', sans-serif;
-    background-image : url("paper-style-dynamic-lines-background_23-2149008629.avif");
+    background-image : url("images/paper-style-dynamic-lines-background_23-2149008629.avif");
     background-size: cover;
     color: #ccd6f6; /* Text color */
     display: flex;
@@ -26,6 +26,9 @@ body {
 /* Header Styling */
 header {
     display: flex;
+    position: fixed;
+    top: 15px;;
+    right: 0;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
@@ -86,15 +89,15 @@ nav ul li a {
 
 /* Main Content Styling */
 .intro {
-    font-family: 'SF Mono', monospace;
-    font-size: 18px;
+    font-family: sf;
+    font-size: 1.2em;
     color: #64ffda;
     margin-bottom: 20px;
     text-align: left;
 }
 
 .name {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
     color: #ccd6f6;
     margin-bottom: 20px;
@@ -102,7 +105,7 @@ nav ul li a {
 }
 
 .tagline {
-    font-size: 48px;
+    font-size: 20px;
     color: #8892b0;
     margin-bottom: 20px;
 }
@@ -126,3 +129,4 @@ nav ul li a {
     text-decoration: none;
     font-family: 'SF Mono', monospace;
 }
+
