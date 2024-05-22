@@ -12,6 +12,7 @@ body {
     background-size: cover;
     color: #ccd6f6; /* Text color */
     display: flex;
+    font-size: 100%;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -111,7 +112,7 @@ nav ul li a {
 }
 
 .description {
-    font-size: 20px;
+    font-size: 1rem;
     color: #8892b0;
     margin-bottom: 40px;
 }
